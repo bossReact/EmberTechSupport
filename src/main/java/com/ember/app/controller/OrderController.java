@@ -33,6 +33,7 @@ public class OrderController {
 	public String showOrderPage(ModelMap map){
 		util.addUi(map);
 		map.addAttribute("order", new Order());
+		System.out.println("Hi");
 		return "orderRegister";
 	}
 	
